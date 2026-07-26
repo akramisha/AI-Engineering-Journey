@@ -15,6 +15,7 @@ Sketch a lean portfolio sitemap that walks one visitor from landing → believin
 <div align="center">
 <img src="portfolio_sitemap.png" width="80%" alt="Initial portfolio sitemap sketch" />
 </div>
+
 **Structure:**
 ```
 Nav bar: Home · Work · About · Contact
