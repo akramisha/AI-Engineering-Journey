@@ -13,7 +13,7 @@ Sketch a lean portfolio sitemap that walks one visitor from landing → believin
 ## 📐 Initial Sitemap
  
 <div align="center">
-<img src="assets/portfolio-sitemap-draft.png" width="80%" alt="Initial portfolio sitemap sketch" />
+<img src="portfolio_sitemap.png" width="80%" alt="Initial portfolio sitemap sketch" />
 </div>
 **Structure:**
 ```
