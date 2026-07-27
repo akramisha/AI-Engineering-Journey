@@ -20,3 +20,19 @@ Write a one-paragraph proof statement answering three questions plainly: the one
 > My CV and LinkedIn list my education and experience, but they can't show how I actually approach problems, build projects, or improve technically over time — only my portfolio can prove that.
  
 ---
+
+## ✅ Self-Check Against Pass/Revise Criteria
+ 
+| Criterion | Status |
+|---|---|
+| One primary claim, named — not multiple skills hiding behind "and" | ✅ Backend development ability, as a single claim |
+| Audience is a specific person, not "everyone" | ✅ Hiring managers hiring for junior backend roles |
+| A single most-important action is chosen | ✅ Reach out and offer an internship |
+| Statement could only describe this proof, not any portfolio | ✅ Tied to backend-specific evidence (projects, internship, documented process) |
+ 
+---
+ 
+## 🔁 Revision Note
+ 
+The first draft bundled two claims together (backend development *and* AI integration skill-building) and two actions (internship *or* entry-level role). Narrowed to one claim — backend development, with AI integration folded in as supporting evidence rather than a second skill — and one action: an internship offer.
+ 
