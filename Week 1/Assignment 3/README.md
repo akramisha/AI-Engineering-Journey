@@ -1,6 +1,6 @@
 # 🎯 Week 1 · Assignment 3 — What Are You Proving?
  
-> AI Fluency Course — [aifluency.flyrank.ai/week-01.html](https://aifluency.flyrank.ai/week-01.html#what-are-you-proving)
+> AI Fluency Course
  
 ---
  
