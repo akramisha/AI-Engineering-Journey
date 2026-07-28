@@ -28,3 +28,18 @@ Data lives only in memory for now — it resets every time the server restarts. 
 **Swagger UI:** Built in for free at `/docs` — no extra setup needed in the Python lane (the JS lane has to install and wire this up manually).
  
 ---
+
+## 🔑 The Big Idea: Endpoints = Path + Method
+ 
+An **endpoint** is one "door" into the server — defined by a **path** (e.g. `/tasks`) and an **HTTP method** (what kind of action it performs).
+ 
+| CRUD operation | HTTP method | Example endpoint | Meaning |
+|---|---|---|---|
+| Create | `POST` | `POST /tasks` | Add a new task |
+| Read | `GET` | `GET /tasks` · `GET /tasks/3` | List all tasks / get task 3 |
+| Update | `PUT` | `PUT /tasks/3` | Change task 3 |
+| Delete | `DELETE` | `DELETE /tasks/3` | Remove task 3 |
+ 
+**`{id}` — path parameter:** the changing part of the URL, like the `3` in `/tasks/3`. In FastAPI it's written `{id}` in the route and captured as a function argument — it tells the server *which* task to act on, instead of acting on the whole list.
+ 
+---
