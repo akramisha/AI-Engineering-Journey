@@ -57,3 +57,29 @@ An **endpoint** is one "door" into the server — defined by a **path** (e.g. `/
 | **7 — Bonus: AI rematch** | Prompt an AI to build the same API from a written spec, compare outputs | README has an "AI vs me" section |
  
 ---
+
+## 📦 The Data Shape
+ 
+Each task is a dictionary with three fields:
+ 
+```python
+{"id": 1, "title": "Learn FastAPI", "done": True}
+```
+ 
+Pre-filled with 3 example tasks to start, stored as a **list of dictionaries** — a container (`[ ]`) holding multiple task objects (`{ }`), each with its own key-value pairs.
+ 
+---
+ 
+## 📚 What I'm Learning Today
+ 
+- **`app = FastAPI()`** — FastAPI is a class; `app` is an object (instance) of that class. Calling `app.post(...)` or `app.get(...)` is calling a method on that object, the same way `list.append()` or `string.upper()` work.
+- **Decorators (`@app.get("/")`)** — a decorator tells FastAPI "this function answers requests to this path + method." Without it, the function below is just an ordinary Python function FastAPI doesn't know about.
+- **Why `/docs` works without me building it** — FastAPI automatically creates a few of its own routes (`/docs`, `/redoc`, `/openapi.json`) the moment `app = FastAPI()` runs, separate from the routes I define myself.
+- **List vs. Dictionary** — a list (`[ ]`) is a container holding many things; a dictionary (`{ }`) is one object made of key-value pairs (like one task's `id`, `title`, `done`).
+- **Query parameter vs. request body** — a plain function argument like `title: str` is read by FastAPI as a query parameter (`?title=...`), not JSON sent in the body. Getting `POST /tasks` to read `{"title": "..."}` from the actual request body needs a separate model describing that shape — still working through this for Stage 3.
+---
+ 
+## 📝 Status
+ 
+Currently on **Stage 3 (Create)** — building `POST /tasks` so a client can add a new task by sending only a `title`, with the server auto-assigning the `id` and defaulting `done` to `false`. Code and full explanation for this stage will go in a separate file once it's working correctly.
+ 
