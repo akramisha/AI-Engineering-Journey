@@ -43,3 +43,17 @@ An **endpoint** is one "door" into the server — defined by a **path** (e.g. `/
 **`{id}` — path parameter:** the changing part of the URL, like the `3` in `/tasks/3`. In FastAPI it's written `{id}` in the route and captured as a function argument — it tells the server *which* task to act on, instead of acting on the whole list.
  
 ---
+## 🪜 The Stages (in order)
+ 
+| Stage | What it builds | Checkpoint |
+|---|---|---|
+| **0 — Hello, server** | Start FastAPI on `localhost:8000` | `curl -i http://localhost:8000/` returns `200` |
+| **1 — First real endpoint** | `GET /` (API description) + `GET /health` (`{"status": "ok"}`) | Both return JSON |
+| **2 — Read** | In-memory list of 3 example tasks; `GET /tasks`; `GET /tasks/{id}` | Valid id → `200` + task, unknown id → `404` + error JSON |
+| **3 — Create** | `POST /tasks` — client sends `{"title": "..."}`, server assigns `id` + `done: false` | Valid title → `201` + new task, missing/empty title → `400` |
+| **4 — Update & Delete** | `PUT /tasks/{id}` (replace), `DELETE /tasks/{id}` (remove) | `200`/`204` on success, `404` on unknown id |
+| **5 — Swagger UI** | View & test all endpoints interactively at `/docs` | Full CRUD cycle works via "Try it out" |
+| **6 — Publish to GitHub** | Public repo, ≥6 commits, README with run instructions + endpoint table + `curl -i` output + Swagger screenshot | A stranger could run it in under 5 minutes |
+| **7 — Bonus: AI rematch** | Prompt an AI to build the same API from a written spec, compare outputs | README has an "AI vs me" section |
+ 
+---
