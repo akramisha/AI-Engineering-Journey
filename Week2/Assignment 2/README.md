@@ -67,3 +67,20 @@ I'm an IT graduate learning backend development and AI engineering through hands
 Feel free to connect, or check out my GitHub.
  
 ---
+
+## 🔁 Before / After
+ 
+**Generic AI version:**
+> Developed a robust and scalable REST API utilizing FastAPI with modern best practices.
+ 
+**My version:**
+> Built my first CRUD Task API with FastAPI to understand how backend APIs actually work. Along the way I learned routing, HTTP methods, status codes, error handling, and Swagger documentation.
+ 
+**Why the edit matters:** the generic version could describe literally anyone's API and claims things ("robust," "scalable," "best practices") I haven't actually proven yet. My version says exactly what I built, why, and what I genuinely learned — nothing it says could be copy-pasted onto a different project.
+ 
+---
+ 
+## 📝 Note
+ 
+My sitemap calls for 3 case studies total. This document currently covers the FastAPI Task API in full; the other two project write-ups (from my Laravel/PHP work) follow the same voice card and three-beat structure and will be added here as separate sections.
+ 
