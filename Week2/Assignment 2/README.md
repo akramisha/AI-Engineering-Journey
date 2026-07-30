@@ -39,4 +39,31 @@ Took the last task's `id` and added 1, so every new task gets the next free numb
 Loop through the list looking for a matching `id`; if nothing matches by the end of the loop, raise a `404` with a message naming the exact id that wasn't found — instead of silently returning nothing.
  
 ---
+
+ ## 📋 Case Study — FastAPI Task API
  
+### Problem
+I wanted to understand how REST APIs work beyond theory by building a complete CRUD application using FastAPI.
+ 
+### What I Did
+- Built `GET /tasks` and `GET /tasks/{id}`, with a proper 404 when an id doesn't exist
+- Added `POST /tasks` with input validation — empty titles get rejected with a 400
+- Generated new task IDs automatically instead of hardcoding them
+- Implemented `PUT /tasks/{id}` and `DELETE /tasks/{id}`, matching each to the correct status code (200 and 204)
+- Fixed a real bug where my endpoints were reading query parameters instead of JSON bodies, by learning how Pydantic models define a request body's shape
+- Added Swagger UI documentation, testable directly in the browser
+- Built a bonus `/stats` endpoint that computes totals instead of just storing them
+### Outcome
+A fully functional CRUD API with automatic documentation, published on GitHub. Along the way I learned how FastAPI handles routing, validation, HTTP methods, and status codes — and picked up the habit of testing with the exact request format a real client would send, not just whatever ran without crashing.
+ 
+---
+ 
+## 👤 Bio
+ 
+I'm an IT graduate learning backend development and AI engineering through hands-on projects.
+ 
+## 📣 CTA
+ 
+Feel free to connect, or check out my GitHub.
+ 
+---
