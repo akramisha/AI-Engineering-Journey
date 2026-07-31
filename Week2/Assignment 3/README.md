@@ -53,3 +53,18 @@ Generic, textbook-level — the kind of answer you'd get from any programming FA
  
 ---
 
+## Version 3 — Layer added: defined audience
+ 
+**Prompt:** `Explain Python lists for backend development. I'm learning FastAPI. Explain for someone who knows basic Python.`
+ 
+**Output (excerpt):**
+> Since you already know basic Python lists ([], indexing, loops, etc.), here's how that knowledge applies directly when building APIs with FastAPI... Simple mental model: Basic Python list = data stored in memory. FastAPI list = same data, but now traveling in/out of your API as JSON, with automatic validation.
+ 
+**What improved in the output:** The response stopped assuming FastAPI knowledge and instead bridged from what I already knew (basic list operations) into each FastAPI use case step by step, with a "why this matters" recap at the end.
+ 
+**What still failed:** The explanation was now correctly pitched, but it was long and code-heavy across three separate scenarios — there was no simple, minimal example to start from.
+ 
+**What I'd try next:** Ask for simple examples to strip away the extra explanation and focus on minimal, runnable code.
+ 
+---
+
