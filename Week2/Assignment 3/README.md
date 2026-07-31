@@ -98,3 +98,9 @@ Generic, textbook-level — the kind of answer you'd get from any programming FA
 **What I'd try next:** Combine the table with the Version 4 code examples so the comparison and the working code sit in the same answer instead of trading one off for the other.
  
 ---
+
+## ✅ Final Reusable Prompt
+ 
+> "Explain how Python lists are used in backend development with FastAPI, for someone who already knows basic Python (variables, loops, indexing, basic list operations) but is new to FastAPI. Cover: (1) receiving a list in a request body via a Pydantic model, (2) returning a list as a response, and (3) accepting a list through query parameters. Use short, minimal, runnable code examples for each case rather than long prose explanations. Finish with a comparison table of lists vs. dictionaries that includes syntax, access method, mutability, and when to use each — but don't let the table replace the code examples; include both."
+ 
+---
