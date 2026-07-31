@@ -37,3 +37,19 @@ Generic, textbook-level — the kind of answer you'd get from any programming FA
 **What I'd try next:** Add FastAPI as context, since that's the framework I'm learning.
  
 ---
+
+## Version 2 — Layer added: more specific real context (FastAPI)
+ 
+**Prompt:** `Explain Python lists for backend development. I'm learning FastAPI.`
+ 
+**Output (excerpt):**
+> In FastAPI, lists are used heavily for request/response data, since FastAPI is built on Pydantic... `@app.post("/items/") def create_items(items: List[Item]): return {"count": len(items)}`
+ 
+**What improved in the output:** The response now included FastAPI-specific examples (Pydantic models, request bodies, response_model, Query params) instead of generic backend talk — I could see exactly where lists show up in a FastAPI app.
+ 
+**What still failed:** It assumed I already understood FastAPI basics like Pydantic models and route decorators, so parts of the explanation went over my head.
+ 
+**What I'd try next:** Specify the audience — tell it I only know basic Python, not FastAPI internals.
+ 
+---
+
