@@ -67,4 +67,22 @@ Generic, textbook-level — the kind of answer you'd get from any programming FA
 **What I'd try next:** Ask for simple examples to strip away the extra explanation and focus on minimal, runnable code.
  
 ---
+## Version 4 — Layer added: specified output format (simple examples)
+ 
+**Prompt:** `Explain using simple examples.`
+ 
+**Output (excerpt):**
+> 1. Basic list (Python, no FastAPI) — `fruits = ["apple", "banana", "cherry"]`
+> 2. Receiving a list in a FastAPI request — minimal code + exact input/output shown
+> 3. Returning a list from FastAPI
+> 4. Query parameter as a list
+ 
+**What improved in the output:** The output reorganized into short, numbered examples, each with the minimal code plus the exact input/output — much easier to scan and test than the previous prose-heavy version.
+ 
+**What still failed:** It dropped the explicit "you already know basic Python" framing from Version 3 and didn't compare lists to any other data structure, so it wasn't clear when a list is the wrong choice.
+ 
+**What I'd try next:** Ask for a table comparing lists to dictionaries, to clarify when to use each.
+ 
+---
+
 
