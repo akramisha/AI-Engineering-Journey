@@ -104,3 +104,15 @@ Generic, textbook-level — the kind of answer you'd get from any programming FA
 > "Explain how Python lists are used in backend development with FastAPI, for someone who already knows basic Python (variables, loops, indexing, basic list operations) but is new to FastAPI. Cover: (1) receiving a list in a request body via a Pydantic model, (2) returning a list as a response, and (3) accepting a list through query parameters. Use short, minimal, runnable code examples for each case rather than long prose explanations. Finish with a comparison table of lists vs. dictionaries that includes syntax, access method, mutability, and when to use each — but don't let the table replace the code examples; include both."
  
 ---
+
+## 📊 Ladder Summary
+ 
+| Version | Layer added | Biggest weakness it targeted |
+|---|---|---|
+| Baseline | — | Generic, no situational relevance |
+| 1 | Real context (backend development) | No specific framework to anchor to |
+| 2 | Real context (FastAPI specifically) | Assumed FastAPI knowledge I didn't have |
+| 3 | Defined audience (knows basic Python, not FastAPI) | Too long, no minimal starting example |
+| 4 | Specified output format (simple examples) | Lost the "you already know X" framing, no comparison point |
+| 5 | Specified output format (comparison table) | Table gained clarity but lost depth from V4 |
+| Final | Combines context + audience + format, explicitly requiring both table *and* code | Reusable by a stranger without losing either strength |
