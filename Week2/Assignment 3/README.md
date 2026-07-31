@@ -85,4 +85,16 @@ Generic, textbook-level — the kind of answer you'd get from any programming FA
  
 ---
 
-
+## Version 5 — Layer added: specified output format (comparison table)
+ 
+**Prompt:** `Use a table and compare lists with dictionaries.`
+ 
+**Output (excerpt):** A full comparison table (definition, syntax, access method, order, duplicates, mutability, best use, FastAPI use case) plus a "quick rule of thumb": use a list for many items of the same kind, a dictionary for one item with labeled properties.
+ 
+**What improved in the output:** The table made lists vs. dictionaries easy to compare at a glance — order, indexing, mutability, and FastAPI use cases all lined up side by side.
+ 
+**⚠️ What didn't help:** The explanation became noticeably shorter and lost some of the detailed reasoning and code examples from Version 4 — the table is great for comparison but weaker for teaching the FastAPI mechanics on its own.
+ 
+**What I'd try next:** Combine the table with the Version 4 code examples so the comparison and the working code sit in the same answer instead of trading one off for the other.
+ 
+---
