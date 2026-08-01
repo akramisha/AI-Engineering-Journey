@@ -105,4 +105,14 @@ Generic, textbook-level — the kind of answer you'd get from any programming FA
  
 ---
 
-
+## 📊 Ladder Summary
+ 
+| Version | Layer added | Biggest weakness it targeted |
+|---|---|---|
+| Baseline | — | Generic, no situational relevance |
+| 1 | Real context (backend development) | No specific framework to anchor to |
+| 2 | Real context (FastAPI specifically) | Assumed FastAPI knowledge I didn't have |
+| 3 | Defined audience (knows basic Python, not FastAPI) | Too long, no minimal starting example |
+| 4 | Specified output format (simple examples) | Lost the "you already know X" framing, no comparison point |
+| 5 | Specified output format (comparison table) | Table gained clarity but lost depth from V4 |
+| Final | Combines context + audience + format, explicitly requiring both table *and* code | Reusable by a stranger without losing either strength |
