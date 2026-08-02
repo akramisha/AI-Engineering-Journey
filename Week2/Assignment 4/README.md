@@ -69,3 +69,13 @@ The embarrassing baseline: generic, template-shaped, no sense of who the README 
 **What still failed:** By naming only five sections, the portfolio-specific content from Prompt 2 (About This Project, What I Learned) got locked out again — explicit structure is even more restrictive than the few-shot example was, since now those sections aren't just unlikely, they're actively excluded unless listed.
  
 ---
+
+## Prompt 5 — Step Decomposition (Final)
+ 
+**Prompt:** Instead of asking for the README directly, broke the task into ordered stages — identify project → features → installation → usage → endpoints/technologies → assemble — then supplied the fixed structure from Prompt 4, on top of role and context.
+ 
+**What improved:** This is the first version that kept *everything*: the portfolio framing from Prompt 2 survived alongside the full structure and a worked `curl` example — forcing the model through each stage before assembling stopped it from dropping sections the way Prompts 3 and 4 did.
+ 
+**What still failed:** It's the longest, most verbose version — for a very small project this borders on over-documented, and a recruiter skimming for 10 seconds still has to scroll past setup detail to see the actual point of the project.
+ 
+---
