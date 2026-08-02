@@ -59,3 +59,13 @@ The embarrassing baseline: generic, template-shaped, no sense of who the README 
 **⚠️ What still failed — the honest miss:** This is the version where a change made things *worse*. The example's minimal structure overrode the context layer: the "About This Project" and "What I Learned" sections from Prompt 2 disappeared entirely, even though the recruiter/portfolio framing was still in the prompt. Few-shot structure won out over stated context — showing an example is a stronger signal than describing intent.
  
 ---
+
+## Prompt 4 — Output Structure
+ 
+**Prompt:** Named the exact headers to return (`# Title`, `## Features`, `## Installation`, `## Endpoints`, `## Technologies`), replacing the loose few-shot example with an explicit structure.
+ 
+**What improved:** The Endpoints section came back as a real table (lost since Prompt 1), and the structure became fully predictable — every run would return the same five sections in the same order.
+ 
+**What still failed:** By naming only five sections, the portfolio-specific content from Prompt 2 (About This Project, What I Learned) got locked out again — explicit structure is even more restrictive than the few-shot example was, since now those sections aren't just unlikely, they're actively excluded unless listed.
+ 
+---
