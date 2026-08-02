@@ -40,3 +40,13 @@ The embarrassing baseline: generic, template-shaped, no sense of who the README 
 **What still failed:** Still assumed generic endpoints and a generic project structure instead of my actual project, and gave no sense of why the project exists or who it's for.
  
 ---
+
+## Prompt 2 — Context & Motivation
+ 
+**Prompt:** `You are an experienced backend developer. I'm creating my first FastAPI CRUD API for my GitHub portfolio and to learn backend development. Write a professional README that is beginner-friendly and suitable for recruiters viewing my repository.`
+ 
+**What improved:** The README stopped reading like generic software documentation and started reading like a portfolio piece — it added an "About This Project" section and a "What I Learned" section that speak directly to a recruiter's question of "what does this show me about the author," which no earlier version did.
+ 
+**What still failed:** Section layout was still inconsistent with earlier versions (no fixed structure), and it still doesn't show real endpoints — this addressed tone and audience, not structure or specificity.
+ 
+---
