@@ -30,3 +30,13 @@ MIT
 The embarrassing baseline: generic, template-shaped, no sense of who the README is for or why the project exists.
  
 ---
+
+## Prompt 1 — Role Assignment
+ 
+**Prompt:** `You are an experienced backend developer. Write a README for my FastAPI project.`
+ 
+**What improved:** The README became more opinionated and practical — it added a "Notes for contributors" section flagging real risks (no DB persistence, no auth) that a working developer would actually warn about, not just template filler.
+ 
+**What still failed:** Still assumed generic endpoints and a generic project structure instead of my actual project, and gave no sense of why the project exists or who it's for.
+ 
+---
