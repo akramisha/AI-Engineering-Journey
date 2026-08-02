@@ -79,3 +79,17 @@ The embarrassing baseline: generic, template-shaped, no sense of who the README 
 **What still failed:** It's the longest, most verbose version — for a very small project this borders on over-documented, and a recruiter skimming for 10 seconds still has to scroll past setup detail to see the actual point of the project.
  
 ---
+
+## 🤖 Cross-Model Comparison — Claude vs. ChatGPT
+ 
+> ⏳ **Status: incomplete.** Prompt 5 has only been run on Claude so far. The assignment requires running the identical final prompt on ChatGPT and comparing honestly — this section will be filled in with real, specific differences once that's done, not left as a generic "both were fine."
+ 
+| Dimension | Claude (Prompt 5 output) | ChatGPT |
+|---|---|---|
+| Tone | Practical, slightly conversational; frames the project's purpose in the first sentence | *pending* |
+| Structure adherence | Followed the requested 7-section structure exactly, in order | *pending* |
+| Accuracy | Endpoint table and example match the CRUD scope described; no invented tech | *pending* |
+| Failure points | Runs long for a small project; installation still uses placeholder repo URL | *pending* |
+ 
+---
+ 
