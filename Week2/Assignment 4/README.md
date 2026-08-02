@@ -50,3 +50,12 @@ The embarrassing baseline: generic, template-shaped, no sense of who the README 
 **What still failed:** Section layout was still inconsistent with earlier versions (no fixed structure), and it still doesn't show real endpoints — this addressed tone and audience, not structure or specificity.
  
 ---
+## Prompt 3 — Few-shot Example
+ 
+**Prompt:** Added a minimal 4-section example (`Project Name / Features / Installation / Usage`) on top of Prompt 2, asking for the same style.
+ 
+**What improved:** The output tightened up and matched the example's structure exactly — no wandering into extra sections, very scannable.
+ 
+**⚠️ What still failed — the honest miss:** This is the version where a change made things *worse*. The example's minimal structure overrode the context layer: the "About This Project" and "What I Learned" sections from Prompt 2 disappeared entirely, even though the recruiter/portfolio framing was still in the prompt. Few-shot structure won out over stated context — showing an example is a stronger signal than describing intent.
+ 
+---
