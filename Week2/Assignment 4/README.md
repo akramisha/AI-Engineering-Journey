@@ -131,3 +131,15 @@ step by step before assembling the final README.
 ```
  
 ---
+
+## 📊 Ladder Summary
+ 
+| Version | Technique | What it fixed | What it broke or missed |
+|---|---|---|---|
+| 0 | Naive baseline | — | Generic, no audience, no purpose |
+| 1 | Role assignment | Added practical, opinionated detail (real risks) | Still generic project structure |
+| 2 | Context & motivation | Added portfolio framing, "What I Learned" | No fixed structure, no real endpoints |
+| 3 | Few-shot example | Tightened structure, very scannable | **Overrode context — lost the portfolio sections entirely** |
+| 4 | Output structure | Endpoints returned as a real table, fully predictable | Locked out any section not explicitly named |
+| 5 | Step decomposition | Kept structure *and* context *and* worked example together | Longest, most verbose version |
+
