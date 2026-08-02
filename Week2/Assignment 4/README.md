@@ -92,4 +92,42 @@ The embarrassing baseline: generic, template-shaped, no sense of who the README 
 | Failure points | Runs long for a small project; installation still uses placeholder repo URL | *pending* |
  
 ---
+
+ ## ✅ Final Reusable Prompt Template
  
+Works for anyone documenting a small backend API project — swap the bracketed details.
+ 
+```
+Role:
+You are an experienced backend developer.
+ 
+Context:
+I am creating a [FRAMEWORK] [PROJECT TYPE] project for [PURPOSE — e.g.
+a GitHub portfolio, a work handoff, an open-source release].
+ 
+Task:
+Write a professional, beginner-friendly README suitable for [AUDIENCE —
+e.g. recruiters, new contributors].
+ 
+Requirements:
+- Explain what the project does and why it exists in 1-2 sentences.
+- Include clear installation steps.
+- Include a usage example with expected output.
+- List the API endpoints (if applicable) in a table.
+- List the technologies/stack used.
+- Keep language simple and avoid unexplained jargon.
+ 
+Output Structure:
+# Title
+## Features
+## Installation
+## Usage
+## Endpoints
+## Technologies
+## License
+ 
+Work through the project's purpose, features, installation, and usage
+step by step before assembling the final README.
+```
+ 
+---
